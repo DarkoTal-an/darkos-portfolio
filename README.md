@@ -1,4 +1,4 @@
-# DarkoTal-an.github.io
+# Darko Talan Full Stack Web Developer
 
 Darkos` Portfolio
 
