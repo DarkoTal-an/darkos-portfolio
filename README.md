@@ -1,5 +1,5 @@
-# DarkoTal-an.github.io
+# Darko Talan Full Stack Web Developer
 
 Darkos` Portfolio
 
-click me: https://darkotal-an.github.io/
+click me: https://darkotal-an.github.io/darkos-portfolio/
