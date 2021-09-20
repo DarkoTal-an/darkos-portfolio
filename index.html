@@ -14,23 +14,23 @@
 
 <!-- N A V B A R  -->
 
-<section class="nav sticky-top">
+<section class="nav sticky-top ">
     <div class="container">
         <nav class="navbar py-3 navbar-expand-md navbar-dark">
             <div>
                 <h1 class="name-logo">Darko Talan</h1>
             </div>
         
-            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <div class="navbar-collapse collapse w-50 order-3 dual-collapse2">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Start</a> 
+                        <a class="nav-link" href="#home">Home</a> 
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#work">Work</a>
+                        <a class="nav-link" href="#work">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact-me">Contact me</a>
@@ -51,10 +51,12 @@
 
 <!-- H O M E -->
 
-<section class="container-fluid h-100" id="home">
-    <div class="row">
-        <div class="selfie col-md-6"></div>
-        <div class="col-md-6 py-5 pl-5 justify-content-center align-self-center">
+<section class="container-fluid h-100 overlay"id="home">
+    <div class="row  ">
+        <div class="selfie-container col-md-6">
+            <div class="selfie "></div>
+        </div>
+        <div class="col-md-6 py-5 pl-5 ">
             <h1>Hello! I'm Darko, i love cycling and everything that's connected to wifi.</h1>
             <h3>Full Stack Web Developer</h3>
             <h6 class="pb-4">
@@ -65,26 +67,19 @@
             </p>
             <p>
                 <a href="#work">
-                    <button>See my work</button>
+                    <button id="about">See my projects</button>
                 </a>
-            </p>
-            <p>
-                <a href="resumes/darko_talan_resume-eng.pdf" download="Darko_Talan_Full_Stack_Web_Developer">
-                    <button class="btn btn-danger">Resume (EN)</button>
-                    
-                </a>
-                <a href="resumes/darko_talan_lebenslauf-de.pdf" download="Darko_Talan_Full_Stack_Webentwickler">
-                    <button class="btn btn-danger">Lebenslauf</button>
-                    
-                </a>
-            </p>
+            </p>            
         </div>
    </div>
 </section>
 
 <!-- A B O U T -->
 
-<section class="container-fluid about"  id="about">
+<section class="container-fluid about"  >
+    <div class="bio">
+        <p></p>
+    </div>
     <div class="container">
         <h3 class="text-center pt-4 pb-3">Skills</h3>
         <div class="row ">
@@ -111,12 +106,32 @@
             </div>
            
         </div>
+        
+    </div>
+</section>
+
+<!-- D O W N L O A D  -->
+<section class="container-fluid resumes">
+    <div class = "container">
+        <h3 class="text-center pt-4 pb-3">Download my resume</h3>            
+        <div class = "row justify-content-center align-self-center ">
+            <p class = "">
+                <a href="resumes/darko_talan_resume-eng.pdf" download="Darko_Talan_Full_Stack_Web_Developer">
+                    <button class="btn btn-danger">(English)</button>
+            
+                </a>
+                <a id="work" href="resumes/darko_talan_lebenslauf-de.pdf" download="Darko_Talan_Full_Stack_Webentwickler">
+                    <button class="btn btn-danger">(Deutsch)</button>                    
+                </a>
+            </p>
+        </div>
+        
     </div>
 </section>
 
 <!-- W O R K  -->
 
-<section class="work" id="work">
+<section class="work" >
     <div class="container">   
         <h3 class="text-center pt-4 pb-3">Explore my work</h3>
         
