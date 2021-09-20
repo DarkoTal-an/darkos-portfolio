@@ -92,9 +92,10 @@ button:hover {
 }
 
 .bio p {
-  border-left: 10px solid #f2eae8;
-  padding-left: 45px;
-  width: 60%;
+  border-left: 10px solid #8b5a50;
+  padding-left: 15px;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .about {
@@ -158,7 +159,10 @@ button:hover {
 }
 
 .work img {
-  max-width: 100%;
+  width: 170px;
+  height: 105px;
+  border: 2px solid #ececec;
+  border-radius: 5px;
 }
 
 .work h6 a {
