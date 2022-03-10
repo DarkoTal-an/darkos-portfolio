@@ -168,4 +168,20 @@ button:hover {
 .work h6 a {
   color: #5a5a5a;
 }
+
+@media only screen and (max-width: 767.25px) {
+  .selfie {
+    background-position: 50% top;
+    height: 450px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .selfie {
+    background-position: 50% center;
+    height: 500px;
+    width: 450px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
